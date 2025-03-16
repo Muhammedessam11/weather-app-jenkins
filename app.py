@@ -3,7 +3,7 @@ import requests
 from flask import Flask, request, render_template_string
 
 app = Flask(__name__)
-api_key = os.getenv("d123db1878800d2c27119139eda255a7")  # Load API key from environment
+api_key = os.getenv("61989b9a02308991bb4b9050fb47231e")  # Load API key from environment
 
 @app.route('/')
 def home():
